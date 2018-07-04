@@ -1,0 +1,16 @@
+\abstract{
+This paper summarises the method and findings of a Master Thesis conducted within the Data Management team of the broadband cable operator UPC Cablecom. The project aimed at building a proof of concept around the topic of router failure prediction. Every part of the process was discussed and the model was built from top to bottom. Many topics such has dataset construction, labeling propagation and model exploration are discussed extensively. This paper follows the empirical approach of research to justify iterative decisions. Among the five hundred thousand routers considered by the analysis 0.224\% were labeled as failing by this project. The final model considered, gradient boosted trees, allowed to predict the sickness of a router with a recall of approximately 14\% at 90\% precision level and 25\% at 80\% precision which supported the need for the company to move forward on such project and cultivate an internal competency around advanced data science. 
+}
+
+\chapter*{Introduction}
+The increasing number of sensors and intelligence in most of our equipment has launched a new era. In order to kill the HIPPO\footnote{Highest Paid Person's Opinion}, our society is now heavily relying on data-driven decision. 
+
+This shift was initiated by the spectacular increase in data collection. The amount of data to be analysed has become prohibitively high. That is the scenario at UPC Cablecom. The company has started to accumulate a lot of data: tracking the health of their equipment and most importantly of CPEs\footnote{Customer premises equipment (e.g. set top box, router, ...)}. 
+
+The scope of this project is to leverage this data to improve customer experience. Combining customer feedback to CPE's health indicators, the final goal of the project is to build a Proof of Concept (POC) to determine whether data collected by the company could be used in order to increase the value that it captures (e.g. reducing the costs of servicing CPEs) or offered to their customer (e.g. increase customer satisfaction by proactively supporting them).
+
+The project was articulated around five parts. We will start by giving an overview of the current situation of the company. This will allow us to follow with a thorough description of the way we were able to construct a dataset that would be usable to perform the desired analysis. This analysis was comprised most importantly of data preprocessing and exploratory analysis, an attempt to cluster the data and finally failure prediction. We will then discuss the performance of the classifier that we have built and of the different steps the project followed. Finally, we will briefly conclude on the project and its benefits for the firm. 
+
+One could wonder why we decided to cluster the data. We will extensively discuss this point at a later stage but as an initial approach we could indicate that we couldn't trust our labelling because of the imperfections in the data collected so far.
+
+As a final remark we would like to express our desire to make this report as thorough as possible given the different choices that have been made (but also the concessions) to make the work reproducible and also to give a sense of the scientific path that was followed.

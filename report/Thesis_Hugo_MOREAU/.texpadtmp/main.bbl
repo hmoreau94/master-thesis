@@ -1,0 +1,572 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{wiki:hfc}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=e2ceeea38f8620383cfbd3e99c5c0cd8}{%
+           family={contributors},
+           familyi={c\bibinitperiod},
+           given={Wikipedia},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{fullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{bibnamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authorbibnamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authornamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authorfullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \field{sortinit}{c}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 26-March-2018]}
+      \field{title}{Hybrid fibre-coaxial --- Wikipedia{,} The Free Encyclopedia}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/w/index.php?title=Hybrid_fibre-coaxial&oldid=831811238
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/w/index.php?title=Hybrid_fibre-coaxial&oldid=831811238
+      \endverb
+    \endentry
+    \entry{PRcurve}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=8f2d58e32d065296e0ddcff5f6509a9f}{%
+           family={Davis},
+           familyi={D\bibinitperiod}}}%
+        {{hash=e646212701eeed6b2b1322b1a596ee98}{%
+           family={Goadrich},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{19d3a8eead21aa91f81fe59680548524}
+      \strng{fullhash}{19d3a8eead21aa91f81fe59680548524}
+      \strng{bibnamehash}{19d3a8eead21aa91f81fe59680548524}
+      \strng{authorbibnamehash}{19d3a8eead21aa91f81fe59680548524}
+      \strng{authornamehash}{19d3a8eead21aa91f81fe59680548524}
+      \strng{authorfullhash}{19d3a8eead21aa91f81fe59680548524}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 26-June-2018]}
+      \field{title}{The Relationship Between Precision-Recall and ROC Curves}
+      \field{year}{2006}
+      \verb{urlraw}
+      \verb https://www.biostat.wisc.edu/~page/rocpr.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.biostat.wisc.edu/~page/rocpr.pdf
+      \endverb
+    \endentry
+    \entry{apples}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=685dbd8baf83acad1decc5a4be593cb3}{%
+           family={Forman},
+           familyi={F\bibinitperiod}}}%
+        {{hash=51f34b9d8e6721bfa24f1a17dc6623ba}{%
+           family={Scholz},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{4cb8178ce6f5e3e00869cf397854a709}
+      \strng{fullhash}{4cb8178ce6f5e3e00869cf397854a709}
+      \strng{bibnamehash}{4cb8178ce6f5e3e00869cf397854a709}
+      \strng{authorbibnamehash}{4cb8178ce6f5e3e00869cf397854a709}
+      \strng{authornamehash}{4cb8178ce6f5e3e00869cf397854a709}
+      \strng{authorfullhash}{4cb8178ce6f5e3e00869cf397854a709}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 26-June-2018]}
+      \field{title}{Apples-to-Apples in Cross-Validation Studies: Pitfalls in Classifier Performance Measurement}
+      \field{year}{2010}
+      \verb{urlraw}
+      \verb https://www.biostat.wisc.edu/~page/rocpr.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.biostat.wisc.edu/~page/rocpr.pdf
+      \endverb
+    \endentry
+    \entry{dimensional_object}{article}{}
+      \name{author}{2}{}{%
+        {{hash=afdaad028f3b7ad542ba5ed3d4d92fc5}{%
+           family={Guo},
+           familyi={G\bibinitperiod}}}%
+        {{hash=d17f7276e62e8ca50b2b73bf0788dcf4}{%
+           family={Patrangenaru},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{0798f9e860d9288b98c2b130e03e55c3}
+      \strng{fullhash}{0798f9e860d9288b98c2b130e03e55c3}
+      \strng{bibnamehash}{0798f9e860d9288b98c2b130e03e55c3}
+      \strng{authorbibnamehash}{0798f9e860d9288b98c2b130e03e55c3}
+      \strng{authornamehash}{0798f9e860d9288b98c2b130e03e55c3}
+      \strng{authorfullhash}{0798f9e860d9288b98c2b130e03e55c3}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 25-June-2018]}
+      \field{title}{Testing for the Equality of two Distributions on High Dimensional Object Spaces}
+      \field{year}{2010}
+      \verb{urlraw}
+      \verb https://arxiv.org/pdf/1703.07856.pdf
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/pdf/1703.07856.pdf
+      \endverb
+    \endentry
+    \entry{tuningGB}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=6fa69319bef2dedb63ea5bfc0bf16335}{%
+           family={Jain},
+           familyi={J\bibinitperiod},
+           given={Aarshay},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{6fa69319bef2dedb63ea5bfc0bf16335}
+      \strng{fullhash}{6fa69319bef2dedb63ea5bfc0bf16335}
+      \strng{bibnamehash}{6fa69319bef2dedb63ea5bfc0bf16335}
+      \strng{authorbibnamehash}{6fa69319bef2dedb63ea5bfc0bf16335}
+      \strng{authornamehash}{6fa69319bef2dedb63ea5bfc0bf16335}
+      \strng{authorfullhash}{6fa69319bef2dedb63ea5bfc0bf16335}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 27-June-2018]}
+      \field{title}{Complete Guide to Parameter Tuning in Gradient Boosting (GBM) in Python}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://www.analyticsvidhya.com/blog/2016/02/complete-guide-parameter-tuning-gradient-boosting-gbm-python/
+      \endverb
+      \verb{url}
+      \verb https://www.analyticsvidhya.com/blog/2016/02/complete-guide-parameter-tuning-gradient-boosting-gbm-python/
+      \endverb
+    \endentry
+    \entry{two_sample_equality}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2eddbdfb1ab574d1b40bbef60b9e1a01}{%
+           family={Rolke},
+           familyi={R\bibinitperiod}}}%
+        {{hash=da4660701a8f38bf4956342c95d87d21}{%
+           family={Lopez},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{7fef8fa89de3d00908c23df612df25f5}
+      \strng{fullhash}{7fef8fa89de3d00908c23df612df25f5}
+      \strng{bibnamehash}{7fef8fa89de3d00908c23df612df25f5}
+      \strng{authorbibnamehash}{7fef8fa89de3d00908c23df612df25f5}
+      \strng{authornamehash}{7fef8fa89de3d00908c23df612df25f5}
+      \strng{authorfullhash}{7fef8fa89de3d00908c23df612df25f5}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 25-June-2018]}
+      \field{title}{A test for equality of distributions in high dimensions}
+      \field{year}{2010}
+      \verb{urlraw}
+      \verb https://pdfs.semanticscholar.org/60e8/b69d6f91a64231a0ab6bf1ddef1e88fb03f6.pdf
+      \endverb
+      \verb{url}
+      \verb https://pdfs.semanticscholar.org/60e8/b69d6f91a64231a0ab6bf1ddef1e88fb03f6.pdf
+      \endverb
+    \endentry
+    \entry{silhouette}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b0a8f2dbfddedf4c95a145149773612f}{%
+           family={Spector},
+           familyi={S\bibinitperiod},
+           given={Phil},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{b0a8f2dbfddedf4c95a145149773612f}
+      \strng{fullhash}{b0a8f2dbfddedf4c95a145149773612f}
+      \strng{bibnamehash}{b0a8f2dbfddedf4c95a145149773612f}
+      \strng{authorbibnamehash}{b0a8f2dbfddedf4c95a145149773612f}
+      \strng{authornamehash}{b0a8f2dbfddedf4c95a145149773612f}
+      \strng{authorfullhash}{b0a8f2dbfddedf4c95a145149773612f}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 26-June-2018]}
+      \field{title}{Concepts in Computing with Data, Performing and Interpreting Cluster Analysis}
+      \field{year}{2011}
+      \verb{urlraw}
+      \verb https://www.stat.berkeley.edu/~spector/s133/Clus.html
+      \endverb
+      \verb{url}
+      \verb https://www.stat.berkeley.edu/~spector/s133/Clus.html
+      \endverb
+    \endentry
+    \entry{energy_test}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f2c74f9990b0bce28abcbc857c17cf57}{%
+           family={Szekely},
+           familyi={S\bibinitperiod}}}%
+        {{hash=b79679f4e5d6535629ee23532b60e3bd}{%
+           family={Rizzo},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{691d4ef9f9998dbf12ee33825f4c32f0}
+      \strng{fullhash}{691d4ef9f9998dbf12ee33825f4c32f0}
+      \strng{bibnamehash}{691d4ef9f9998dbf12ee33825f4c32f0}
+      \strng{authorbibnamehash}{691d4ef9f9998dbf12ee33825f4c32f0}
+      \strng{authornamehash}{691d4ef9f9998dbf12ee33825f4c32f0}
+      \strng{authorfullhash}{691d4ef9f9998dbf12ee33825f4c32f0}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 25-June-2018]}
+      \field{title}{Testing for equal distributions in high dimension}
+      \field{year}{2004}
+      \verb{urlraw}
+      \verb https://pdfs.semanticscholar.org/ad5e/91905a85d6f671c04a67779fd1377e86d199.pdf3
+      \endverb
+      \verb{url}
+      \verb https://pdfs.semanticscholar.org/ad5e/91905a85d6f671c04a67779fd1377e86d199.pdf3
+      \endverb
+    \endentry
+    \entry{pca}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=f2523b53871c8892020f88e567b8fe6d}{%
+           family={Urbanke},
+           familyi={U\bibinitperiod}}}%
+        {{hash=837cbfe2c5d16d2ba5f142894647c9fa}{%
+           family={Jaggi},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{77c467d85b7fd22f46ab24ca420671b5}
+      \strng{fullhash}{77c467d85b7fd22f46ab24ca420671b5}
+      \strng{bibnamehash}{77c467d85b7fd22f46ab24ca420671b5}
+      \strng{authorbibnamehash}{77c467d85b7fd22f46ab24ca420671b5}
+      \strng{authornamehash}{77c467d85b7fd22f46ab24ca420671b5}
+      \strng{authorfullhash}{77c467d85b7fd22f46ab24ca420671b5}
+      \field{sortinit}{U}
+      \field{sortinithash}{36a2444f5238e0dcf4bb59704df6624d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 26-June-2018]}
+      \field{title}{SVD and PCA (Lecture)}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://github.com/epfml/ML_course/raw/master/lectures/11/lecture11a_pca.pdf
+      \endverb
+      \verb{url}
+      \verb https://github.com/epfml/ML_course/raw/master/lectures/11/lecture11a_pca.pdf
+      \endverb
+    \endentry
+    \entry{wiki:cv}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=dbaddbc54def56810e1e242366054cb0}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{fullhash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{bibnamehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{authorbibnamehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{authornamehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{authorfullhash}{dbaddbc54def56810e1e242366054cb0}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 26-June-2018]}
+      \field{title}{Cross-validation (statistics) --- {Wikipedia}{,} The Free Encyclopedia}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/w/index.php?title=Cross-validation_(statistics)&oldid=846958290
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/w/index.php?title=Cross-validation_(statistics)&oldid=846958290
+      \endverb
+    \endentry
+    \entry{wiki:curse}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=dbaddbc54def56810e1e242366054cb0}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{fullhash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{bibnamehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{authorbibnamehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{authornamehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{authorfullhash}{dbaddbc54def56810e1e242366054cb0}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 26-June-2018]}
+      \field{title}{Curse of dimensionality --- {Wikipedia}{,} The Free Encyclopedia}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/w/index.php?title=Curse_of_dimensionality&oldid=841189648
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/w/index.php?title=Curse_of_dimensionality&oldid=841189648
+      \endverb
+    \endentry
+    \entry{wiki:f1}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=dbaddbc54def56810e1e242366054cb0}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{fullhash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{bibnamehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{authorbibnamehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{authornamehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{authorfullhash}{dbaddbc54def56810e1e242366054cb0}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 26-June-2018]}
+      \field{title}{F1 score --- {Wikipedia}{,} The Free Encyclopedia}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/w/index.php?title=F1_score&oldid=841695054
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/w/index.php?title=F1_score&oldid=841695054
+      \endverb
+    \endentry
+    \entry{wiki:ks_test}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=dbaddbc54def56810e1e242366054cb0}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{fullhash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{bibnamehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{authorbibnamehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{authornamehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{authorfullhash}{dbaddbc54def56810e1e242366054cb0}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 25-June-2018]}
+      \field{title}{Kolmogorov–Smirnov test --- {Wikipedia}{,} The Free Encyclopedia}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/w/index.php?title=Kolmogorov%E2%80%93Smirnov_test&oldid=836654041
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/w/index.php?title=Kolmogorov%E2%80%93Smirnov_test&oldid=836654041
+      \endverb
+    \endentry
+    \entry{wiki:lda}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=dbaddbc54def56810e1e242366054cb0}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{fullhash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{bibnamehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{authorbibnamehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{authornamehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{authorfullhash}{dbaddbc54def56810e1e242366054cb0}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 26-June-2018]}
+      \field{title}{Linear discriminant analysis --- {Wikipedia}{,} The Free Encyclopedia}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/w/index.php?title=Linear_discriminant_analysis&oldid=842699562
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/w/index.php?title=Linear_discriminant_analysis&oldid=842699562
+      \endverb
+    \endentry
+    \entry{wiki:mnar}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=dbaddbc54def56810e1e242366054cb0}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{fullhash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{bibnamehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{authorbibnamehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{authornamehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{authorfullhash}{dbaddbc54def56810e1e242366054cb0}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 21-June-2018]}
+      \field{title}{Missing data --- {Wikipedia}{,} The Free Encyclopedia}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/w/index.php?title=Missing_data&oldid=844516228
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/w/index.php?title=Missing_data&oldid=844516228
+      \endverb
+    \endentry
+    \entry{wiki:null_hyp}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=dbaddbc54def56810e1e242366054cb0}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{fullhash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{bibnamehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{authorbibnamehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{authornamehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{authorfullhash}{dbaddbc54def56810e1e242366054cb0}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 25-June-2018]}
+      \field{title}{Null hypothesis --- {Wikipedia}{,} The Free Encyclopedia}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/w/index.php?title=Null_hypothesis&oldid=846828588
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/w/index.php?title=Null_hypothesis&oldid=846828588
+      \endverb
+    \endentry
+    \entry{wiki:onehot}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=dbaddbc54def56810e1e242366054cb0}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{fullhash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{bibnamehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{authorbibnamehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{authornamehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{authorfullhash}{dbaddbc54def56810e1e242366054cb0}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 26-June-2018]}
+      \field{title}{One-hot --- {Wikipedia}{,} The Free Encyclopedia}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/w/index.php?title=One-hot&oldid=842497268
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/w/index.php?title=One-hot&oldid=842497268
+      \endverb
+    \endentry
+    \entry{wiki:pvalue}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=dbaddbc54def56810e1e242366054cb0}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{fullhash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{bibnamehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{authorbibnamehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{authornamehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{authorfullhash}{dbaddbc54def56810e1e242366054cb0}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 25-June-2018]}
+      \field{title}{P-value --- {Wikipedia}{,} The Free Encyclopedia}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/w/index.php?title=P-value&oldid=841864108
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/w/index.php?title=P-value&oldid=841864108
+      \endverb
+    \endentry
+    \entry{wiki:roc}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=dbaddbc54def56810e1e242366054cb0}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{fullhash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{bibnamehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{authorbibnamehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{authornamehash}{dbaddbc54def56810e1e242366054cb0}
+      \strng{authorfullhash}{dbaddbc54def56810e1e242366054cb0}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 26-June-2018]}
+      \field{title}{Receiver operating characteristic --- {Wikipedia}{,} The Free Encyclopedia}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/w/index.php?title=Receiver_operating_characteristic&oldid=846742304
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/w/index.php?title=Receiver_operating_characteristic&oldid=846742304
+      \endverb
+    \endentry
+    \entry{min_energy}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3e160d0ece588926e5f20bf493cbd8f1}{%
+           family={Zech},
+           familyi={Z\bibinitperiod}}}%
+        {{hash=d97af337a00ba4e521977755416eae52}{%
+           family={Aslan},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{68d43860c39427d0c790c6ec3eae7935}
+      \strng{fullhash}{68d43860c39427d0c790c6ec3eae7935}
+      \strng{bibnamehash}{68d43860c39427d0c790c6ec3eae7935}
+      \strng{authorbibnamehash}{68d43860c39427d0c790c6ec3eae7935}
+      \strng{authornamehash}{68d43860c39427d0c790c6ec3eae7935}
+      \strng{authorfullhash}{68d43860c39427d0c790c6ec3eae7935}
+      \field{sortinit}{Z}
+      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 25-June-2018]}
+      \field{title}{A Multivariate Two-Sample Test Based on the Concept of Minimum Energy}
+      \field{year}{2003}
+      \verb{urlraw}
+      \verb https://pdfs.semanticscholar.org/60e8/b69d6f91a64231a0ab6bf1ddef1e88fb03f6.pdf
+      \endverb
+      \verb{url}
+      \verb https://pdfs.semanticscholar.org/60e8/b69d6f91a64231a0ab6bf1ddef1e88fb03f6.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

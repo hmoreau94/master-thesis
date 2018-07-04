@@ -1,0 +1,55 @@
+\documentclass[10pt,a4paper,twocolumn]{report}
+%\documentclass[9pt,conference,compsocconf]{IEEEtran}
+
+\usepackage{hyperref}
+\usepackage{graphicx}	% For figure environment
+\usepackage{verbatim}
+\usepackage{xcolor}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{mathtools}
+\usepackage{biblatex}
+\usepackage{multirow} % for combining rows
+\usepackage{enumitem}
+\usepackage{url}
+\usepackage{amsfonts}
+\bibliography{literature.bib}
+
+
+\usepackage[justification=centering,
+   format=plain]{caption} 
+\graphicspath{{images/}}
+\newcommand\todo[1]{\textcolor{red}{#1}}
+
+
+\begin{document}
+\title{Predictive Maintenance of Customer Premises Equipment using Machine Learning Techniques}
+
+
+
+\author{
+	\includegraphics[width=0.2\linewidth]{EPFL}\\
+	Hugo MOREAU\\
+  	\begin{tt}hugo.moreau@epfl.ch\end{tt}, EPFL \\
+	Data Science Laboratory (DLAB)\\
+	Under the supervision of \\
+	Pr. Robert West (Head of DLAB)\\
+	Pratheep Ravy (Head of the Data Management Team)\\
+	at UPC Schweiz GmbH during the Spring semester of 2018.
+}
+
+\maketitle{}
+\setcounter{tocdepth}{4}
+\tableofcontents
+\input{0-Abstract_introduction}
+\input{1-UPC_Cablecom}
+\input{2-Dataset_Construction}
+\input{3-Analysis}
+\input{4-Discussion}
+\input{5-Conclusion}
+\input{6-Appendix}
+
+\printbibliography
+
+\end{document}
+
