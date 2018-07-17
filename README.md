@@ -10,18 +10,18 @@ The structure of the repository reflects the different steps of the project. We 
 
 ```
 ├── analysis/									# Data Analysis and Machine Learning
-│		├── Data/								# Data Samples and Saved objects
-│		├── Distance_matrices/				# Distance matrices used for energy test (influence of weekends)
-│		├── Final.ipynb						# Jupyter Notebook explaining all the protocol 
-│		├── Final.html						# Html version of the notebook (doens't require jupyter)
-│		└── scripts/   						# All python scripts used by the notebook
-│       	├──  __init.py__					
-│       	├──  __pycache__
-│       	├──  energy_test_DP.py			# Influence of weekends on vectors
-│       	├──  model_selection.py			# To select the optimal model (without plotting)
-│       	├──  plot.py						# All functions generating plots
-│       	├──  preprocessing.py			# Functions to put the data in format for ML
-│       	└──  utils.py						# Utility functions and to import the data in python
+│		├── Data/							# Data Samples and Saved objects
+│		├── Distance_matrices/						# Distance matrices used for energy test (influence of weekends)
+│		├── Final.ipynb							# Jupyter Notebook explaining all the protocol 
+│		├── Final.html							# Html version of the notebook (doens't require jupyter)
+│		└── scripts/   							# All python scripts used by the notebook
+│       		├──  __init.py__					
+│       		├──  __pycache__
+│       		├──  energy_test_DP.py					# Influence of weekends on vectors
+│       		├──  model_selection.py					# To select the optimal model (without plotting)
+│       		├──  plot.py						# All functions generating plots
+│       		├──  preprocessing.py					# Functions to put the data in format for ML
+│       		└──  utils.py						# Utility functions and to import the data in python
 ├── archive/									# Archives ressearch notebooks
 ├── packages/									# P/L SQL packages
 ├── README.md
