@@ -1,5 +1,4 @@
 \documentclass[10pt,a4paper,twocolumn]{report}
-%\documentclass[9pt,conference,compsocconf]{IEEEtran}
 
 \usepackage{hyperref}
 \usepackage{graphicx}	% For figure environment
@@ -13,7 +12,28 @@
 \usepackage{enumitem}
 \usepackage{url}
 \usepackage{amsfonts}
+\usepackage[acronym]{glossaries}
 \bibliography{literature.bib}
+
+
+\makeglossaries
+
+\newacronym{hfc}{HFC}{Hybrid Fiber-Coaxial}
+\newacronym{cpe}{CPE}{Customer Premises Equipment}
+\newacronym{thd}{THD}{Technical Help Desk}
+\newacronym{cmts}{CMTS}{Cable Modem Termination System}
+\newacronym{saa}{SAA}{ServAssure}
+\newacronym{via}{VIA}{Virtual Interactive Assistant}
+\newacronym{poc}{POC}{Proof of Concept}
+\newacronym{dmp}{DMP}{Datamart Production}
+\newacronym{dmt}{DMT}{Datamart Test}
+\newacronym{mac}{MAC}{Media Access Control (address)}
+\newacronym{ftr}{FTR}{First Time Resolution}
+\newacronym{cly}{CLY}{Clarify}
+\newacronym{sql}{SQL}{Structured Query Language}
+\newacronym{plsql}{PL/SQL}{Procedural Language/Structured Query Language}
+\newacronym{roc}{ROC}{Receiver Output Caracteristics}
+\newacronym{pr}{PR}{Precision Recall}
 
 
 \usepackage[justification=centering,
@@ -24,8 +44,6 @@
 
 \begin{document}
 \title{Predictive Maintenance of Customer Premises Equipment using Machine Learning Techniques}
-
-
 
 \author{
 	\includegraphics[width=0.2\linewidth]{EPFL}\\
@@ -39,7 +57,7 @@
 }
 
 \maketitle{}
-\setcounter{tocdepth}{4}
+\setcounter{tocdepth}{3}
 \tableofcontents
 \input{0-Abstract_introduction}
 \input{1-UPC_Cablecom}
@@ -50,6 +68,7 @@
 \input{6-Appendix}
 
 \printbibliography
+\printglossary[type=\acronymtype]
 
 \end{document}
 

@@ -1,15 +1,17 @@
 [0] Config.pm:302> INFO - This is Biber 2.11
-[1] Config.pm:305> INFO - Logfile is '/Users/hmoreau/Documents/Personnel/Emploi/UPC/cpe-failure-prediction/report/Thesis_Hugo_MOREAU/.texpadtmp/main.blg'
-[160] biber-darwin:313> INFO - === Tue Jul  3, 2018, 13:20:00
-[276] Biber.pm:371> INFO - Reading '/Users/hmoreau/Documents/Personnel/Emploi/UPC/cpe-failure-prediction/report/Thesis_Hugo_MOREAU/.texpadtmp/main.bcf'
-[551] Biber.pm:857> INFO - Found 20 citekeys in bib section 0
-[589] Biber.pm:3976> INFO - Processing section 0
-[616] Biber.pm:4136> INFO - Looking for bibtex format file '/Users/hmoreau/Documents/Personnel/Emploi/UPC/cpe-failure-prediction/report/Thesis_Hugo_MOREAU/literature.bib' for section 0
-[620] bibtex.pm:1500> INFO - LaTeX decoding ...
-[685] bibtex.pm:1316> INFO - Found BibTeX data source '/Users/hmoreau/Documents/Personnel/Emploi/UPC/cpe-failure-prediction/report/Thesis_Hugo_MOREAU/literature.bib'
-[952] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[952] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[952] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[952] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
-[977] bbl.pm:617> INFO - Writing '/Users/hmoreau/Documents/Personnel/Emploi/UPC/cpe-failure-prediction/report/Thesis_Hugo_MOREAU/.texpadtmp/main.bbl' with encoding 'UTF-8'
-[987] bbl.pm:720> INFO - Output to /Users/hmoreau/Documents/Personnel/Emploi/UPC/cpe-failure-prediction/report/Thesis_Hugo_MOREAU/.texpadtmp/main.bbl
+[0] Config.pm:305> INFO - Logfile is '/Users/hmoreau/Documents/Personnel/Emploi/UPC/cpe-failure-prediction/report/Thesis_Hugo_MOREAU/.texpadtmp/main.blg'
+[53] biber-darwin:313> INFO - === Tue Jul 17, 2018, 09:01:07
+[88] Biber.pm:371> INFO - Reading '/Users/hmoreau/Documents/Personnel/Emploi/UPC/cpe-failure-prediction/report/Thesis_Hugo_MOREAU/.texpadtmp/main.bcf'
+[219] Biber.pm:857> INFO - Found 22 citekeys in bib section 0
+[237] Biber.pm:3976> INFO - Processing section 0
+[254] Biber.pm:4136> INFO - Looking for bibtex format file '/Users/hmoreau/Documents/Personnel/Emploi/UPC/cpe-failure-prediction/report/Thesis_Hugo_MOREAU/literature.bib' for section 0
+[256] bibtex.pm:1500> INFO - LaTeX decoding ...
+[288] bibtex.pm:1316> INFO - Found BibTeX data source '/Users/hmoreau/Documents/Personnel/Emploi/UPC/cpe-failure-prediction/report/Thesis_Hugo_MOREAU/literature.bib'
+[375] Utils.pm:193> WARN - I didn't find a database entry for 'kmeans' (section 0)
+[404] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[404] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[404] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[404] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[437] bbl.pm:617> INFO - Writing '/Users/hmoreau/Documents/Personnel/Emploi/UPC/cpe-failure-prediction/report/Thesis_Hugo_MOREAU/.texpadtmp/main.bbl' with encoding 'UTF-8'
+[446] bbl.pm:720> INFO - Output to /Users/hmoreau/Documents/Personnel/Emploi/UPC/cpe-failure-prediction/report/Thesis_Hugo_MOREAU/.texpadtmp/main.bbl
+[447] Biber.pm:110> INFO - WARNINGS: 1

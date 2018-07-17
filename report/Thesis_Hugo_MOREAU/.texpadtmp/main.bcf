@@ -1984,17 +1984,20 @@
     <bcf:citekey order="7">two_sample_equality</bcf:citekey>
     <bcf:citekey order="7">dimensional_object</bcf:citekey>
     <bcf:citekey order="7">energy_test</bcf:citekey>
-    <bcf:citekey order="8">wiki:onehot</bcf:citekey>
-    <bcf:citekey order="9">wiki:curse</bcf:citekey>
-    <bcf:citekey order="10">pca</bcf:citekey>
-    <bcf:citekey order="11">wiki:lda</bcf:citekey>
-    <bcf:citekey order="12">silhouette</bcf:citekey>
-    <bcf:citekey order="13">wiki:f1</bcf:citekey>
-    <bcf:citekey order="14">wiki:roc</bcf:citekey>
-    <bcf:citekey order="15">wiki:cv</bcf:citekey>
-    <bcf:citekey order="16">PRcurve</bcf:citekey>
-    <bcf:citekey order="17">apples</bcf:citekey>
-    <bcf:citekey order="18">tuningGB</bcf:citekey>
+    <bcf:citekey order="8">data_preproc</bcf:citekey>
+    <bcf:citekey order="9">wiki:onehot</bcf:citekey>
+    <bcf:citekey order="10">wiki:curse</bcf:citekey>
+    <bcf:citekey order="11">pca</bcf:citekey>
+    <bcf:citekey order="12">wiki:lda</bcf:citekey>
+    <bcf:citekey order="13">kmeans</bcf:citekey>
+    <bcf:citekey order="14">silhouette</bcf:citekey>
+    <bcf:citekey order="15">data_preproc</bcf:citekey>
+    <bcf:citekey order="16">wiki:f1</bcf:citekey>
+    <bcf:citekey order="17">wiki:roc</bcf:citekey>
+    <bcf:citekey order="18">wiki:cv</bcf:citekey>
+    <bcf:citekey order="19">PRcurve</bcf:citekey>
+    <bcf:citekey order="20">apples</bcf:citekey>
+    <bcf:citekey order="21">tuningGB</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

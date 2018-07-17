@@ -1,101 +1,82 @@
-\BOOKMARK [0][-]{chapter.1}{UPC Cablecom's Business}{}% 1
+\BOOKMARK [0][-]{chapter.1}{UPC Switzerland's Business}{}% 1
 \BOOKMARK [1][-]{section.1.1}{Hybrid Fiber-Coaxial Architecture}{chapter.1}% 2
 \BOOKMARK [1][-]{section.1.2}{Problem Identified}{chapter.1}% 3
 \BOOKMARK [1][-]{section.1.3}{Data Sources}{chapter.1}% 4
 \BOOKMARK [1][-]{section.1.4}{Setup of the Project}{chapter.1}% 5
 \BOOKMARK [0][-]{chapter.2}{Dataset Construction}{}% 6
-\BOOKMARK [1][-]{section.2.1}{Identifying Un-heatlhy CPE}{chapter.2}% 7
-\BOOKMARK [2][-]{subsection.2.1.1}{Understanding VIA}{section.2.1}% 8
-\BOOKMARK [2][-]{subsection.2.1.2}{Protocol to Flag Failing MACs}{section.2.1}% 9
-\BOOKMARK [3][-]{section*.5}{Labeling sessions with a problem}{subsection.2.1.2}% 10
+\BOOKMARK [1][-]{section.2.1}{Identifying Un-heatlhy cpe}{chapter.2}% 7
+\BOOKMARK [2][-]{subsection.2.1.1}{Understanding via}{section.2.1}% 8
+\BOOKMARK [2][-]{subsection.2.1.2}{Protocol to Flag Failing macs}{section.2.1}% 9
+\BOOKMARK [3][-]{section*.5}{Labeling Sessions With a Problem}{subsection.2.1.2}% 10
 \BOOKMARK [3][-]{section*.6}{Linking Sessions to Devices}{subsection.2.1.2}% 11
 \BOOKMARK [3][-]{section*.7}{Ensuring the Exactitude of Our Labeling}{subsection.2.1.2}% 12
 \BOOKMARK [3][-]{section*.8}{Focusing on Certain Problems}{subsection.2.1.2}% 13
-\BOOKMARK [1][-]{section.2.2}{Characterising CPEs}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.2}{Characterising cpes}{chapter.2}% 14
 \BOOKMARK [2][-]{subsection.2.2.1}{Measurement Choices}{section.2.2}% 15
 \BOOKMARK [3][-]{section*.9}{Available Values}{subsection.2.2.1}% 16
 \BOOKMARK [3][-]{section*.13}{Constructed Features}{subsection.2.2.1}% 17
 \BOOKMARK [2][-]{subsection.2.2.2}{Representation Choices}{section.2.2}% 18
-\BOOKMARK [3][-]{section*.15}{Linking CMTS Interfaces to CPE}{subsection.2.2.2}% 19
-\BOOKMARK [3][-]{section*.16}{Decreasing Group Specifies}{subsection.2.2.2}% 20
+\BOOKMARK [3][-]{section*.15}{Linking cmts Interfaces to cpe}{subsection.2.2.2}% 19
+\BOOKMARK [3][-]{section*.16}{Decreasing Group Specificities}{subsection.2.2.2}% 20
 \BOOKMARK [3][-]{section*.17}{Including the Time Dimension of Failures}{subsection.2.2.2}% 21
-\BOOKMARK [1][-]{section.2.3}{Restricting the Dataset: Offline CPEs}{chapter.2}% 22
+\BOOKMARK [1][-]{section.2.3}{Restricting the Dataset: Offline cpes}{chapter.2}% 22
 \BOOKMARK [2][-]{section*.19}{Outliers Detection}{section.2.3}% 23
 \BOOKMARK [3][-]{section*.20}{Accidental Discovery: Automatic Deep Sleep Mode}{section*.19}% 24
 \BOOKMARK [1][-]{section.2.4}{Collecting the Data}{chapter.2}% 25
 \BOOKMARK [2][-]{subsection.2.4.1}{Collecting Over Multiple Days}{section.2.4}% 26
 \BOOKMARK [3][-]{section*.23}{Collection Timeline}{subsection.2.4.1}% 27
 \BOOKMARK [3][-]{section*.25}{Efficiency}{subsection.2.4.1}% 28
-\BOOKMARK [4][-]{section*.26}{DMP and DMT}{section*.25}% 29
-\BOOKMARK [4][-]{section*.27}{Rolling Window Mechanism - DMP}{section*.25}% 30
-\BOOKMARK [4][-]{section*.28}{Rolling Window Mechanism - DMT}{section*.25}% 31
-\BOOKMARK [4][-]{section*.29}{Automatisation: Checks and Logging}{section*.25}% 32
-\BOOKMARK [2][-]{subsection.2.4.2}{Data Sampling}{section.2.4}% 33
-\BOOKMARK [2][-]{subsection.2.4.3}{Initialisation}{section.2.4}% 34
-\BOOKMARK [0][-]{chapter.3}{Data Analysis and Machine Learning}{}% 35
-\BOOKMARK [1][-]{section.3.1}{Intermediary Analysis}{chapter.3}% 36
-\BOOKMARK [2][-]{subsection.3.1.1}{Influence of Weekends on Vectors}{section.3.1}% 37
-\BOOKMARK [3][-]{section*.30}{Na\357ve Approach: Kolmogorov-Smirnov statistic on 2 samples}{subsection.3.1.1}% 38
-\BOOKMARK [3][-]{section*.36}{High Dimensionality Hypothesis Testing}{subsection.3.1.1}% 39
-\BOOKMARK [4][-]{section*.37}{Theoretical Concept}{section*.36}% 40
-\BOOKMARK [4][-]{section*.38}{Practical Implementation}{section*.36}% 41
-\BOOKMARK [4][-]{section*.39}{Results}{section*.36}% 42
-\BOOKMARK [2][-]{subsection.3.1.2}{Exploratory Data Analysis}{section.3.1}% 43
-\BOOKMARK [3][-]{section*.42}{Data Report}{subsection.3.1.2}% 44
-\BOOKMARK [3][-]{section*.43}{Null Value Analysis}{subsection.3.1.2}% 45
-\BOOKMARK [3][-]{section*.46}{Feature Elimination}{subsection.3.1.2}% 46
-\BOOKMARK [4][-]{section*.47}{Correlated Features}{section*.46}% 47
-\BOOKMARK [4][-]{section*.50}{Near Zero Variance}{section*.46}% 48
-\BOOKMARK [1][-]{section.3.2}{Data Preprocessing}{chapter.3}% 49
-\BOOKMARK [2][-]{subsection.3.2.1}{Target Binarization}{section.3.2}% 50
-\BOOKMARK [2][-]{subsection.3.2.2}{One-Hot Encoding}{section.3.2}% 51
-\BOOKMARK [2][-]{subsection.3.2.3}{Missing Value Imputation}{section.3.2}% 52
-\BOOKMARK [2][-]{subsection.3.2.4}{Scaling}{section.3.2}% 53
-\BOOKMARK [2][-]{subsection.3.2.5}{Dimensionality Reduction}{section.3.2}% 54
-\BOOKMARK [3][-]{section*.53}{Principal Component Analysis}{subsection.3.2.5}% 55
-\BOOKMARK [3][-]{section*.55}{Linear Discriminant Analysis}{subsection.3.2.5}% 56
-\BOOKMARK [1][-]{section.3.3}{Clustering Attempt}{chapter.3}% 57
-\BOOKMARK [2][-]{subsection.3.3.1}{Exploring}{section.3.3}% 58
-\BOOKMARK [3][-]{section*.56}{Evaluating Performance}{subsection.3.3.1}% 59
-\BOOKMARK [4][-]{section*.57}{Silhouette Analysis}{section*.56}% 60
-\BOOKMARK [4][-]{section*.58}{Elbow Method}{section*.56}% 61
-\BOOKMARK [3][-]{section*.59}{Initial Results}{subsection.3.3.1}% 62
-\BOOKMARK [2][-]{subsection.3.3.2}{Improving Scores}{section.3.3}% 63
-\BOOKMARK [3][-]{section*.63}{Balancing the Dataset}{subsection.3.3.2}% 64
-\BOOKMARK [3][-]{section*.66}{Combining Dimensionality Reduction With Balanced Classes}{subsection.3.3.2}% 65
-\BOOKMARK [1][-]{section.3.4}{Failure Prediction}{chapter.3}% 66
-\BOOKMARK [2][-]{subsection.3.4.1}{Model Exploration}{section.3.4}% 67
-\BOOKMARK [3][-]{section*.68}{Initial research}{subsection.3.4.1}% 68
-\BOOKMARK [4][-]{section*.69}{Performance Evaluation}{section*.68}% 69
-\BOOKMARK [4][-]{section*.70}{Standard Cross Validation \(CV\)}{section*.68}% 70
-\BOOKMARK [4][-]{section*.71}{Results}{section*.68}% 71
-\BOOKMARK [3][-]{section*.74}{Improving Our Model Selection Process}{subsection.3.4.1}% 72
-\BOOKMARK [4][-]{section*.75}{Problematic CV}{section*.74}% 73
-\BOOKMARK [4][-]{section*.76}{Designing a New CV Strategy}{section*.74}% 74
-\BOOKMARK [4][-]{section*.78}{Graphical Performance Evaluation}{section*.74}% 75
-\BOOKMARK [4][-]{section*.79}{Metrics}{section*.74}% 76
-\BOOKMARK [3][-]{section*.80}{Improved Research}{subsection.3.4.1}% 77
-\BOOKMARK [3][-]{section*.83}{Understanding Classification}{subsection.3.4.1}% 78
-\BOOKMARK [4][-]{section*.84}{No Dimensionality Reduction}{section*.83}% 79
-\BOOKMARK [4][-]{section*.85}{Top 4 features}{section*.83}% 80
-\BOOKMARK [2][-]{subsection.3.4.2}{Tuning Gradient Boosting}{section.3.4}% 81
-\BOOKMARK [3][-]{section*.87}{Protocol}{subsection.3.4.2}% 82
-\BOOKMARK [3][-]{section*.88}{Visualization}{subsection.3.4.2}% 83
-\BOOKMARK [2][-]{subsection.3.4.3}{Model Discussion}{section.3.4}% 84
-\BOOKMARK [3][-]{section*.91}{Model Output Check}{subsection.3.4.3}% 85
-\BOOKMARK [3][-]{section*.93}{Time Gap Influence}{subsection.3.4.3}% 86
-\BOOKMARK [3][-]{section*.95}{Same Weekday Training/Testing}{subsection.3.4.3}% 87
-\BOOKMARK [0][-]{chapter.4}{Discussion}{}% 88
-\BOOKMARK [1][-]{section.4.1}{How Can We Use the Predictions?}{chapter.4}% 89
-\BOOKMARK [1][-]{section.4.2}{Improving Data}{chapter.4}% 90
-\BOOKMARK [2][-]{subsection.4.2.1}{Recall vs. Precision}{section.4.2}% 91
-\BOOKMARK [2][-]{subsection.4.2.2}{Building the Ground Truth Labelling}{section.4.2}% 92
-\BOOKMARK [1][-]{section.4.3}{Improving the Model}{chapter.4}% 93
-\BOOKMARK [2][-]{subsection.4.3.1}{Architecture}{section.4.3}% 94
-\BOOKMARK [2][-]{subsection.4.3.2}{Data Representation}{section.4.3}% 95
-\BOOKMARK [2][-]{subsection.4.3.3}{Leveraging Internal Knowledge}{section.4.3}% 96
-\BOOKMARK [2][-]{subsection.4.3.4}{Complex Models}{section.4.3}% 97
-\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 98
-\BOOKMARK [0][-]{appendix.A}{Data Report}{}% 99
-\BOOKMARK [1][-]{section.A.1}{Continuous Variables - Frequency Plots}{appendix.A}% 100
-\BOOKMARK [1][-]{section.A.2}{Categorical Variables - Frequency Plots}{appendix.A}% 101
+\BOOKMARK [2][-]{subsection.2.4.2}{Data Sampling}{section.2.4}% 29
+\BOOKMARK [2][-]{subsection.2.4.3}{Initialisation}{section.2.4}% 30
+\BOOKMARK [0][-]{chapter.3}{Data Analysis and Machine Learning}{}% 31
+\BOOKMARK [1][-]{section.3.1}{Intermediary Analysis}{chapter.3}% 32
+\BOOKMARK [2][-]{subsection.3.1.1}{Influence of Weekends on Vectors}{section.3.1}% 33
+\BOOKMARK [3][-]{section*.30}{Naive Approach: Kolmogorov-Smirnov statistic on 2 samples}{subsection.3.1.1}% 34
+\BOOKMARK [3][-]{section*.36}{High Dimensionality Hypothesis Testing}{subsection.3.1.1}% 35
+\BOOKMARK [2][-]{subsection.3.1.2}{Exploratory Data Analysis}{section.3.1}% 36
+\BOOKMARK [3][-]{section*.42}{Data Report}{subsection.3.1.2}% 37
+\BOOKMARK [3][-]{section*.43}{Null Value Analysis}{subsection.3.1.2}% 38
+\BOOKMARK [3][-]{section*.46}{Feature Elimination}{subsection.3.1.2}% 39
+\BOOKMARK [1][-]{section.3.2}{Data Preprocessing}{chapter.3}% 40
+\BOOKMARK [2][-]{subsection.3.2.1}{Target Binarization}{section.3.2}% 41
+\BOOKMARK [2][-]{subsection.3.2.2}{One-Hot Encoding}{section.3.2}% 42
+\BOOKMARK [2][-]{subsection.3.2.3}{Missing Value Imputation}{section.3.2}% 43
+\BOOKMARK [2][-]{subsection.3.2.4}{Scaling}{section.3.2}% 44
+\BOOKMARK [2][-]{subsection.3.2.5}{Dimensionality Reduction}{section.3.2}% 45
+\BOOKMARK [3][-]{section*.53}{Principal Component Analysis}{subsection.3.2.5}% 46
+\BOOKMARK [3][-]{section*.55}{Linear Discriminant Analysis}{subsection.3.2.5}% 47
+\BOOKMARK [1][-]{section.3.3}{Clustering Attempt}{chapter.3}% 48
+\BOOKMARK [2][-]{subsection.3.3.1}{Exploring}{section.3.3}% 49
+\BOOKMARK [3][-]{section*.56}{Evaluating Performance}{subsection.3.3.1}% 50
+\BOOKMARK [3][-]{section*.59}{Initial Results}{subsection.3.3.1}% 51
+\BOOKMARK [2][-]{subsection.3.3.2}{Improving Scores}{section.3.3}% 52
+\BOOKMARK [3][-]{section*.63}{Balancing the Dataset}{subsection.3.3.2}% 53
+\BOOKMARK [3][-]{section*.66}{Combining Dimensionality Reduction With Balanced Classes}{subsection.3.3.2}% 54
+\BOOKMARK [1][-]{section.3.4}{Failure Prediction}{chapter.3}% 55
+\BOOKMARK [2][-]{subsection.3.4.1}{Model Exploration}{section.3.4}% 56
+\BOOKMARK [3][-]{section*.68}{Initial Research}{subsection.3.4.1}% 57
+\BOOKMARK [3][-]{section*.74}{Improving Our Model Selection Process}{subsection.3.4.1}% 58
+\BOOKMARK [3][-]{section*.80}{Improved Research}{subsection.3.4.1}% 59
+\BOOKMARK [3][-]{section*.83}{Understanding Classification}{subsection.3.4.1}% 60
+\BOOKMARK [2][-]{subsection.3.4.2}{Tuning Gradient Boosting}{section.3.4}% 61
+\BOOKMARK [3][-]{section*.87}{Protocol}{subsection.3.4.2}% 62
+\BOOKMARK [3][-]{section*.88}{Visualization}{subsection.3.4.2}% 63
+\BOOKMARK [2][-]{subsection.3.4.3}{Model Discussion}{section.3.4}% 64
+\BOOKMARK [3][-]{section*.91}{Model Output Check}{subsection.3.4.3}% 65
+\BOOKMARK [3][-]{section*.93}{Time Gap Influence}{subsection.3.4.3}% 66
+\BOOKMARK [3][-]{section*.95}{Same Weekday Training/Testing}{subsection.3.4.3}% 67
+\BOOKMARK [0][-]{chapter.4}{Discussion}{}% 68
+\BOOKMARK [1][-]{section.4.1}{How Can We Use the Predictions?}{chapter.4}% 69
+\BOOKMARK [1][-]{section.4.2}{Improving Data}{chapter.4}% 70
+\BOOKMARK [2][-]{subsection.4.2.1}{Recall vs. Precision}{section.4.2}% 71
+\BOOKMARK [2][-]{subsection.4.2.2}{Building the Ground Truth Labelling}{section.4.2}% 72
+\BOOKMARK [1][-]{section.4.3}{Improving the Model}{chapter.4}% 73
+\BOOKMARK [2][-]{subsection.4.3.1}{Architecture}{section.4.3}% 74
+\BOOKMARK [2][-]{subsection.4.3.2}{Data Representation}{section.4.3}% 75
+\BOOKMARK [2][-]{subsection.4.3.3}{Leveraging Internal Knowledge}{section.4.3}% 76
+\BOOKMARK [2][-]{subsection.4.3.4}{Complex Models}{section.4.3}% 77
+\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 78
+\BOOKMARK [0][-]{appendix.A}{Repository}{}% 79
+\BOOKMARK [0][-]{appendix.B}{Data Report}{}% 80
+\BOOKMARK [1][-]{section.B.1}{Continuous Variables - Frequency Plots}{appendix.B}% 81
+\BOOKMARK [1][-]{section.B.2}{Categorical Variables - Frequency Plots}{appendix.B}% 82

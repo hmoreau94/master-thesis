@@ -162,6 +162,37 @@
       \verb https://www.analyticsvidhya.com/blog/2016/02/complete-guide-parameter-tuning-gradient-boosting-gbm-python/
       \endverb
     \endentry
+    \entry{data_preproc}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2a5d995f617b0e29b419c327c06d3812}{%
+           family={Kotsiantis},
+           familyi={K\bibinitperiod},
+           given={Kanellopoulos},
+           giveni={K\bibinitperiod}}}%
+        {{hash=e69fb4e313e92ae336dcbfc30fab7ec2}{%
+           family={Pintelas},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{33746a85691cd320c4baa03dfffc1697}
+      \strng{fullhash}{33746a85691cd320c4baa03dfffc1697}
+      \strng{bibnamehash}{33746a85691cd320c4baa03dfffc1697}
+      \strng{authorbibnamehash}{33746a85691cd320c4baa03dfffc1697}
+      \strng{authornamehash}{33746a85691cd320c4baa03dfffc1697}
+      \strng{authorfullhash}{33746a85691cd320c4baa03dfffc1697}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 25-June-2018]}
+      \field{title}{Data Preprocessing for Supervised Leaning}
+      \field{year}{2006}
+      \verb{urlraw}
+      \verb https://waset.org/publications/14136/data-preprocessing-for-supervised-leaning
+      \endverb
+      \verb{url}
+      \verb https://waset.org/publications/14136/data-preprocessing-for-supervised-leaning
+      \endverb
+    \endentry
     \entry{two_sample_equality}{article}{}
       \name{author}{2}{}{%
         {{hash=2eddbdfb1ab574d1b40bbef60b9e1a01}{%
@@ -567,6 +598,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{kmeans}
 \endrefsection
 \endinput
 
